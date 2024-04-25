@@ -1,112 +1,202 @@
 [
     {
         "id": "01",
-        "question" : "Which of the following is the correct name of React.js?",
+        "question" : "When faced with a challenging task at work, you tend to:",
         "options": [
-            "React",
-            "React.js",
-            "ReactJS",
-            "All of the above"
-        ],
-        "answer": "All of the above"
+            "Seek guidance from others",
+            "Strategize a plan",
+            "Dive in and figure it out",
+            "Procrastinate"
+        ]
     },
     {
         "id": "02",
-        "question" : "Which of the following are the advantages of React.js?",
+        "question" : "How do you handle conflicts with colleagues or students?",
         "options": [
-            "React.js can increase the application's performance with Virtual DOM.",
-            "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
-            "React.js can render both on client and server side.",
-            "All of the above"
-        ],
-        "answer": "All of the above"
+            "Avoid them",
+            "Confront them directly",
+            "Seek compromise",
+            "Seek mediation"
+        ]
     },
     {
         "id": "03",
-        "question" : "Which of the following is not a disadvantage of React.js?",
+        "question" : "In a team project, you are more likely to:",
         "options": [
-            "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
-            "The library of React.js is pretty large.",
-            "The JSX in React.js makes code easy to read and write.",
-            "The learning curve can be steep in React.js."
-        ],
-        "answer": "The JSX in React.js makes code easy to read and write."
+            "Take charge and lead",
+            "Collaborate with others",
+            "Provide support",
+            "Let others take charge"
+        ]
     },
     {
         "id": "04",
-        "question" : "Which of the following command is used to install create-react-app?",
+        "question" : "How do you prioritize tasks at work?",
         "options": [
-            "npm install -g create-react-app",
-            "npx create-react-app my-app",
-            "npm install create-react-app",
-            "npm install -f create-react-app"
-        ],
-        "answer": "npx create-react-app my-app"
+            "Work on urgent tasks first",
+            "Follow a to-do list",
+            "Tackle important projects",
+            "Handle tasks as they come"
+        ]
     },
     {
         "id": "05",
-        "question" : "What of the following is used in React.js to increase performance?",
+        "question" : "How do you handle stress in the workplace?",
         "options": [
-            "Original DOM",
-            "Virtual DOM",
-            "Both A and B.",
-            "None of the above."
-        ],
-        "answer": "Virtual DOM"
+            "Take short breaks",
+            "Keep working under pressure",
+            "Seek support from peers",
+            "Ignore it and push through"
+        ]
     },
     {
         "id": "06",
-        "question" : "What is the default port where webpack-server runs?",
+        "question" : "When making decisions, you rely more on:",
         "options": [
-            "3000",
-            "8080",
-            "3030",
-            "6060"
-        ],
-        "answer": "3000"
+            "Gut instincts",
+            "Data and analysis",
+            "Input from others",
+            "Personal experience"
+        ]
     },
     {
         "id": "07",
-        "question" : "How many numbers of elements a valid react component can return?",
+        "question" : "How do you adapt to changes in work procedures or policies?",
         "options": [
-            "1",
-            "2",
-            "3",
-            "Unlimited"
-        ],
-        "answer": "1"
+            "Embrace them",
+            "Question and suggest improvements",
+            "Wait and see",
+            "Resist them"
+        ]
     },
     {
         "id": "08",
-        "question" : "What is the declarative way to render a dynamic list of components based on values in an array?",
+        "question" : "How do you prefer to receive feedback on your work?",
         "options": [
-            "Using the reduce array method",
-            "Using the <Each /> component",
-            "Using the Array.map() method",
-            "With a for/while loop"
-        ],
-        "answer": "Using the Array.map() method"
+            "Direct and constructive",
+            "Positive reinforcement",
+            "Written feedback",
+            "No feedback necessary"
+        ]
     },
     {
         "id": "09",
-        "question" : "What is a state in React?",
+        "question" : "How do you motivate yourself when faced with a tedious task?",
         "options": [
-            "A permanent storage.",
-            "Internal storage of the component.",
-            "External storage of the component.",
-            "None of the above."
-        ],
-        "answer": "Internal storage of the component."
+            "Break it into smaller tasks",
+            "Set rewards for completion",
+            "Focus on the end goal",
+            "Seek help from others"
+        ]
     },
     {
         "id": "10",
-        "question" : "What are the two ways to handle data in React?",
+        "question" : "How do you handle tight deadlines?",
         "options": [
-            "State & Props",
-            "Services & Components",
-            "State & Services",
-            "State & Component"
-        ],
-        "answer": "State & Props"
+            "Plan and prioritize",
+            "Work under pressure",
+            "Ask for deadline extension",
+            "Panic and stress out"
+        ]
+    },
+    {
+        "id": "11",
+        "question" : "How do you approach professional development opportunities?",
+        "options": [
+            "Actively seek them out",
+            "Participate when available",
+            "Wait for mandatory sessions",
+            "Avoid them"
+        ]
+    },
+    {
+        "id": "12",
+        "question" : "How do you foster a positive work environment?",
+        "options": [
+            "Encourage teamwork",
+            "Recognize individual achievements",
+            "Address conflicts",
+            "Keep to yourself"
+        ]
+    },
+    {
+        "id": "13",
+        "question" : "How do you handle failures or setbacks at work?",
+        "options": [
+            "Learn from them",
+            "Blame others",
+            "Try to forget and move on",
+            "Give up"
+        ]
+    },
+    {
+        "id": "14",
+        "question" : "How do you handle multitasking?",
+        "options": [
+            "Prioritize tasks",
+            "Juggle tasks simultaneously",
+            "Delegate tasks",
+            "Feel overwhelmed"
+        ]
+    },
+    {
+        "id": "15",
+        "question" : "How do you communicate with your team or colleagues?",
+        "options": [
+            "Clearly and effectively",
+            "Casually and informally",
+            "Professionally and formally",
+            "Avoid communication"
+        ]
+    },
+    {
+        "id": "16",
+        "question" : "How do you approach professional relationships at work?",
+        "options": [
+            "Build strong connections",
+            "Keep it strictly business",
+            "Maintain a friendly demeanor",
+            "Keep distance"
+        ]
+    },
+    {
+        "id": "17",
+        "question" : "How do you handle long-term projects or goals?",
+        "options": [
+            "Break them into milestones",
+            "Stay focused until completion",
+            "Tackle them sporadically",
+            "Avoid committing to them"
+        ]
+    },
+    {
+        "id": "18",
+        "question" : "How do you contribute to a collaborative work environment?",
+        "options": [
+            "Offer help and support",
+            "Stay focused on your tasks",
+            "Share ideas and feedback",
+            "Stay detached"
+        ]
+    },
+    {
+        "id": "19",
+        "question" : "How do you handle feedback from superiors?",
+        "options": [
+            "Act on it constructively",
+            "Disregard if you disagree",
+            "Reflect on it privately",
+            "Defend your actions"
+        ]
+    },
+    {
+        "id": "20",
+        "question" : "How do you balance work and personal life?",
+        "options": [
+            "Set boundaries",
+            "Blur the lines between work and personal",
+            "Prioritize work",
+            "Prioritize personal life"
+        ]
     }
 ]
