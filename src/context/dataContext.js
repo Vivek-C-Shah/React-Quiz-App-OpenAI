@@ -44,18 +44,12 @@ export const DataProvider = ({children}) => {
       selectedAnswer: selected,
       options: question.options,
       correctAnswer: question.answer,
+      isCorrect: selected == question.answer
     };
     setAnswerObject(prevAnswerObject => [...prevAnswerObject, newAnswerObject]);
     if (!selectedAnswer) {
-      setCorrectAnswer(question.answer);
       setSelectedAnswer(selected);
-
-      if (selected === question.answer) {
-        event.target.classList.add('bg-success');
-        setMarks(marks + 5);
-      } else {
-        event.target.classList.add('bg-danger');
-      }
+      event.target.classList.add('bg-success');
     }
   }
 

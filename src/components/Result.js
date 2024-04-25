@@ -18,15 +18,15 @@ const Result = () => {
         .post(
           "https://api.openai.com/v1/chat/completions",
         {
-            model: "gpt-3.5-turbo",
+            model: "gpt-3.5-turbo-0125",
             messages: [
               {
                 role: "system",
-                content: "You are a bot that gives a brief report of the JSON data provided to you. the data contains various questions with there correct answers and the selected answer by the user. you need to generate a report based on the given information to you."
+                content: "You're a psychometric analysis bot, you're task is to analyse the person's psychometry and write a detailed review and feedback on what key areas the participant must improve on to be more productive."
               },
               {
                 role: "user",
-                content: `${answerText},\n\n Generate a performance Report based on the answers provided above.`
+                content: `Here is the quiz,\n\n${answerText}`
               }
             ]
           },
@@ -57,16 +57,8 @@ const Result = () => {
         <div className="row vh-100 align-items-center justify-content-center">
           <div className="col-lg-6">
             <div
-              className={`text-light text-center p-5 rounded ${
-                marks > (quizs.length * 5) / 2 ? "bg-success" : "bg-danger"
-              }`}
+              className={`text-light text-center p-5 rounded bg-success`}
             >
-              <h1 className="mb-2 fw-bold">
-                {marks > (quizs.length * 5) / 2 ? "Awesome!" : "Oops!"}
-              </h1>
-              <h3 className="mb-3 fw-bold">
-                Your score is {marks} out of {quizs.length * 5}
-              </h3>
               <p className="mb-3 fs-5">{openAIResponse}</p>
               <button
                 onClick={startOver}
@@ -82,4 +74,4 @@ const Result = () => {
   );
 };
 
-export default Result;
+export default Result
